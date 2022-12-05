@@ -14,11 +14,11 @@ public class Driver {
 		
 		ICredentials cs = new CredentialServices();
 		
-		System.out.println("please enter the department form the options ");
-		System.out.println("1.Technical");
-		System.out.println("2.Admin");
-		System.out.println("3.Human Resources");
-		System.out.println("4.Leagel");
+		System.out.println("please enter the department from the options : ");
+		System.out.println("       1.Technical");
+		System.out.println("       2.Admin");
+		System.out.println("       3.Human Resources");
+		System.out.println("       4.Leagel");
 		
 		Scanner sc = new Scanner(System.in);
 		int option = sc.nextInt();
